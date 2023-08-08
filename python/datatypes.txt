@@ -1,0 +1,24 @@
+1-String :Str
+ex:
+x="Moatsem"
+print(x)
+print(type(x))
+2-numeric types : int,float, complex
+ex:
+#complex:
+x=5+6j
+print(x)
+print(type(x))
+
+3-sequence types : list, tuple, range
+#list
+x=[1,2,3,4,5]
+print(x)
+print(type(x))
+#Tuple(const list):
+x=(1,2,3,4,5)
+4- mapping type : dict
+
+5-set types :set
+6-boolean type :bool
+ x=True 

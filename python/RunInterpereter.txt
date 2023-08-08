@@ -1,0 +1,13 @@
+two methods to Run:
+*Run with !#:
+1- in terminal : which python3 --> it will give you the interpreter path
+2- copy the path
+3- start your prog code with [!#path]
+
+*Run with shebang : 
+in terminal in the path of folder of your file.py
+1- /file.py
+2-for denied access: give the permission for the user by change mode
+chmod u+x file.py
+3- /file.py again 
+4- u-x for remove permission
