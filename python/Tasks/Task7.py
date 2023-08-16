@@ -1,11 +1,16 @@
-#find automatically bitcoin rate
-from bs4 import BeautifulSoup as BS
+
+#Web scarping using bs4
+
 import requests
-def price(url):
-    data=requests.get(url)
-    soup=BS(data.text,'html.parser')
-    ans=soup.find("div",class_="BNeawe iBp4i AP7Wnd").text
-    return ans
-url="https://www.google.com/search?q = bitcoin + price"
-ans=price(url)
-print(ans)
+from bs4 import BeautifulSoup 
+import lxml
+url= "https://www.bloomberg.com/markets/currencies"
+get_url=requests.get(url)
+return_soup=BeautifulSoup(get_url.text,'lxml')
+print(return_soup.find('head'))
+
+#how to install BeutifulSoup in Ubuntu :
+#Open Terminal in Ubuntu $ sudo apt install python3-pip
+#                        $pip3 --version
+#                        $ pip3 install beautifulsoup4
+#                        $pip3 install lxml
