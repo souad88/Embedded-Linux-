@@ -1,11 +1,7 @@
-#find automatically bitcoin rate
-from bs4 import BeautifulSoup as BS
+#Current bitcoin using python
+#!/usr/bin/env python
+# This is my btc.py script.
 import requests
-def price(url):
-    data=requests.get(url)
-    soup=BS(data.text,'html.parser')
-    ans=soup.find("div",class_="BNeawe iBp4i AP7Wnd").text
-    return ans
-url="https://www.google.com/search?q = bitcoin + price"
-ans=price(url)
-print(ans)
+response = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+data = response.json()
+print(data)

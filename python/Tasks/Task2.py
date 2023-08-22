@@ -10,3 +10,4 @@ word=str(input("Enter word"))
 #define vowel letters
 vowel='aieou'
 print(check_vowel(word,vowel))    
+#
