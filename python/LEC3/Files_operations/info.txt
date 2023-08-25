@@ -1,0 +1,1 @@
+this is lecture 3 in python 
