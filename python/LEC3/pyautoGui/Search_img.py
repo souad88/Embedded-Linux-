@@ -2,6 +2,7 @@
 #take a screen shot for Terminal window (Fn+prtSC) then Select then Enter
 #paste your .Png  in your Current Folder
 import pyautogui
+
 import time 
 import os
 #Search in the current directory for the image_file and save path 
