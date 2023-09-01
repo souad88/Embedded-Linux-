@@ -1,0 +1,11 @@
+import socket
+client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+ip=socket.gethostname(socket.gethostname())
+print("your ip is :"+ip)
+client.connect((ip,5000))
+msg=str(input("Enter message :"))
+msg_encoded=msg.encode('UTF-8')
+client.send(msg_encoded)
+rodata=client.recv(1024)
+print(f"{ip} is sending to you this message{rodata.decode('UTF-8')}")
+client.close()

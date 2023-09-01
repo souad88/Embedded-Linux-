@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+window.geometry('300x400')
+window.title("YouR Favorites")
+list_=Listbox(window)
+list_.insert(1,'walking')
+list_.insert(1,'shopping')
+list_.insert(1,'Coding')
+list_.insert(1,'cooking')
+list_.pack()
+mainloop()
