@@ -1,0 +1,12 @@
+//display memory section
+#include <iostream>
+#include <string>
+int This_x_Data_Section;
+int This_x_BSS=10;
+int main()
+{
+
+    int This_x_Stack=0;
+    std::cout<<"Hello world"<<This_x_Stack<<endl::cout;
+    
+}
