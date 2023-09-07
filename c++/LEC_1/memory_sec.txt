@@ -9,4 +9,5 @@ int main()
     int This_x_Stack=0;
     std::cout<<"Hello world"<<This_x_Stack<<endl::cout;
     
+    return 0;
 }
