@@ -1,0 +1,2 @@
+#display any file content
+$cat  "file_path"

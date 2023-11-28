@@ -1,0 +1,2 @@
+#remove file
+$rm file_name

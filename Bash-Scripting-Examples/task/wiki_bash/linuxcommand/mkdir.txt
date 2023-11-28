@@ -1,0 +1,2 @@
+#creat directory
+$mkdir directory_name

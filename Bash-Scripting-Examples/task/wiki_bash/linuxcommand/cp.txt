@@ -1,0 +1,2 @@
+#copy file from path_1 to path_2
+$cp path_1 path_2

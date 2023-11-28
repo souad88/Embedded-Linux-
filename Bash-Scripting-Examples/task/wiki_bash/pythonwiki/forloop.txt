@@ -1,0 +1,3 @@
+languages = ['german', 'english', 'french', 'arabic']
+for language in languages:
+    print(language)
