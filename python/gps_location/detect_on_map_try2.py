@@ -5,11 +5,9 @@ from folium.plugins import MarkerCluster
 import webbrowser
 #start position
 #down_town
-#latitude= 30.0170955
-#longitude= 31.4129432
+latitude= 30.0170955
+longitude= 31.4129432
 
-latitude= 26.2540493
-longitude= 29.2675469
  
 values=range(30)
 def zoom_in_map():
