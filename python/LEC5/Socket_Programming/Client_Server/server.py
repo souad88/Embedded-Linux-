@@ -1,6 +1,6 @@
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-ip=socket.gethostname(socket.gethostname())
+ip=socket.gethostbyname(socket.gethostname())
 print("your ip is :"+ip)
 s.bind((ip,5000))
 s.listen(5)

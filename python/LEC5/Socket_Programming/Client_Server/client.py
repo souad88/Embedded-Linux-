@@ -1,6 +1,6 @@
 import socket
 client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-ip=socket.gethostname(socket.gethostname())
+ip=socket.gethostbyname(socket.gethostname())
 print("your ip is :"+ip)
 client.connect((ip,5000))
 msg=str(input("Enter message :"))
